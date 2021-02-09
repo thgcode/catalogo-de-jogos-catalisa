@@ -9,10 +9,10 @@ public class CriadorDeJogosDeRua extends CriadorDeJogos {
     }
 
     public Jogo criar() {
-        super().criar();
+        super.criar();
 
         System.out.println("Esse jogo de rua é perigoso?");
-        perigoso = scanner.nextLine().equalsIgnoreCase("s");
+        perigoso = scanner.nextLine().equalsIgnoreCase("sim");
 
         System.out.println("Qual o tipo de jogo de rua você desjea?");
 
